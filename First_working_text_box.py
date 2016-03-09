@@ -3,8 +3,6 @@ import tkinter as tk
 import ctypes
 from tkinter.simpledialog import askstring
 
-<<<<<<< HEAD
-=======
 root = tk.Tk()
 string = askstring("askstring", "Enter Text")
 
@@ -12,7 +10,6 @@ print(string)
 
 
 
->>>>>>> fa6141c33c119f2f01266d6e113131d039807283
 index = 0
 stack = []
 name = string
@@ -23,6 +20,9 @@ while index < len(name):
    stack.append(num)
    index += 1
 
+
+#class typing():
+#    def
 bgcolor("black")
 speed(100)
 def space():
@@ -260,55 +260,91 @@ def letter_z():
 listen()
 position()
 for x in range (0, len(stack)):
-    if (stack[x] == 97 or stack[x] == 65): 
+    if (stack[x] == 97):
         letter_a()
-    if (stack[x] == 98 or stack[x] == 66):
+    if (stack[x] == 98):
         letter_b()
-    if (stack[x] == 99 or stack[x] == 67):
+    if (stack[x] == 99):
         letter_c()
-    if (stack[x] == 100 or stack[x] == 68):
+    if (stack[x] == 100):
         letter_d()
-    if (stack[x] == 101 or stack[x] == 69):
+    if (stack[x] == 101):
         letter_e()
-    if (stack[x] == 102 or stack[x] == 70):
+    if (stack[x] == 102):
         letter_f()
-    if (stack[x] == 103 or stack[x] == 71):
+    if (stack[x] == 103):
         letter_g()
-    if (stack[x] == 104 or stack[x] == 72):
+    if (stack[x] == 104):
         letter_h()
-    if (stack[x] == 105 or stack[x] == 73):
+    if (stack[x] == 105):
         letter_i()
-    if (stack[x] == 106 or stack[x] == 74):
+    if (stack[x] == 106):
         letter_j()
-    if (stack[x] == 107 or stack[x] == 75):
+    if (stack[x] == 107):
         letter_k()
-    if (stack[x] == 108 or stack[x] == 76):
+    if (stack[x] == 108):
         letter_l()
-    if (stack[x] == 109 or stack[x] == 77):
+    if (stack[x] == 109):
         letter_m()
-    if (stack[x] == 110 or stack[x] == 78):
+    if (stack[x] == 110):
         letter_n()
-    if (stack[x] == 111 or stack[x] == 79):
+    if (stack[x] == 111):
         letter_o()
-    if (stack[x] == 112 or stack[x] == 80):
+    if (stack[x] == 112):
         letter_p()
-    if (stack[x] == 113 or stack[x] == 81):
+    if (stack[x] == 113):
         letter_q()
-    if (stack[x] == 114 or stack[x] == 82):
+    if (stack[x] == 114):
         letter_r()
-    if (stack[x] == 115 or stack[x] == 83):
+    if (stack[x] == 115):
         letter_s()
-    if (stack[x] == 116 or stack[x] == 84):
+    if (stack[x] == 116):
         letter_t()
-    if (stack[x] == 117 or stack[x] == 85):
+    if (stack[x] == 117):
         letter_u()
-    if (stack[x] == 118 or stack[x] == 86):
+    if (stack[x] == 118):
         letter_v()
-    if (stack[x] == 119 or stack[x] == 87):
+    if (stack[x] == 119):
         letter_w()
-    if (stack[x] == 120 or stack[x] == 88):
+    if (stack[x] == 120):
         letter_x()
-    if (stack[x] == 121 or stack[x] == 89):
+    if (stack[x] == 121):
         letter_y()
-    if (stack[x] == 122 or stack[x] == 90):
+    if (stack[x] == 122):
         letter_z()
+
+
+               
+               
+#def first():
+#    letter_h()
+"""listen()
+position()
+onkey(letter_a, "a")
+onkey(letter_b, "b")
+onkey(letter_c, "c")
+onkey(letter_d, "d")
+onkey(letter_e, "e")
+onkey(letter_f, "f")
+onkey(letter_g, "g")
+onkey(letter_h, "h")
+onkey(letter_i, "i")
+onkey(letter_j, "j")
+onkey(letter_k, "k")
+onkey(letter_l, "l")
+onkey(letter_m, "m")
+onkey(letter_n, "n")
+onkey(letter_o, "o")
+onkey(letter_p, "p")
+onkey(letter_q, "q")
+onkey(letter_r, "r")
+onkey(letter_s, "s")
+onkey(letter_t, "t")
+onkey(letter_u, "u")
+onkey(letter_v, "v") 
+onkey(letter_w, "w")
+onkey(letter_x, "x")
+onkey(letter_y, "y")
+onkey(letter_z, "z")
+onkey(space_button, "space")
+"""

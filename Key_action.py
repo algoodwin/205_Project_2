@@ -5,7 +5,7 @@ import ctypes
 #class typing():
 #    def
 bgcolor("black")
-speed(100)
+speed(100000000)
 def space():
     penup()
     lt(45)
