@@ -330,9 +330,267 @@ def num_0():
     circle(10, steps = 4)
     end_fill()
     space()
+def spec_tilda():
+    color("#4840f9")
+    rt(45)
+    fillcolor("#4840f9")
+    begin_fill()
+    circle(10, steps = 4)
+    end_fill()
+    space()
+def spec_accent():
+    color("#31b440")
+    rt(45)
+    fillcolor("#31b440")
+    begin_fill()
+    circle(10, steps = 4)
+    end_fill()
+    space()
+def spec_exclam():
+    color("#8cf390")
+    rt(45)
+    fillcolor("#8cf390")
+    begin_fill()
+    circle(10, steps = 4)
+    end_fill()
+    space()
+def spec_at():
+    color("#fb452e")
+    rt(45)
+    fillcolor("#fb452e")
+    begin_fill()
+    circle(10, steps = 4)
+    end_fill()
+    space()
+def spec_pound():
+    color("#741210")
+    rt(45)
+    fillcolor("#741210")
+    begin_fill()
+    circle(10, steps = 4)
+    end_fill()
+    space()
+def spec_dollar():
+    color("#a833dd")
+    rt(45)
+    fillcolor("#a833dd")
+    begin_fill()
+    circle(10, steps = 4)
+    end_fill()
+    space()
+def spec_percent():
+    color("#2546fb")
+    rt(45)
+    fillcolor("#2546fb")
+    begin_fill()
+    circle(10, steps = 4)
+    end_fill()
+    space()
+def spec_up():
+    color("#67b97f")
+    rt(45)
+    fillcolor("#67b97f")
+    begin_fill()
+    circle(10, steps = 4)
+    end_fill()
+    space()
+def spec_amp():
+    color("#a10c0f")
+    rt(45)
+    fillcolor("#a10c0f")
+    begin_fill()
+    circle(10, steps = 4)
+    end_fill()
+    space()
+def spec_star():
+    color("#dbdb6a")
+    rt(45)
+    fillcolor("#dbdb6a")
+    begin_fill()
+    circle(10, steps = 4)
+    end_fill()
+    space()
+def spec_openp():
+    color("#f3899e")
+    rt(45)
+    fillcolor("#f3899e")
+    begin_fill()
+    circle(10, steps = 4)
+    end_fill()
+    space()
+def spec_closep():
+    color("#9bcaff")
+    rt(45)
+    fillcolor("#9bcaff")
+    begin_fill()
+    circle(10, steps = 4)
+    end_fill()
+    space()
+def spec_minus():
+    color("#0ea933")
+    rt(45)
+    fillcolor("#0ea933")
+    begin_fill()
+    circle(10, steps = 4)
+    end_fill()
+    space()
+def spec_underscore():
+    color("#e72656")
+    rt(45)
+    fillcolor("#e72656")
+    begin_fill()
+    circle(10, steps = 4)
+    end_fill()
+    space()
+def spec_plus():
+    color("#9edc59")
+    rt(45)
+    fillcolor("#9edc59")
+    begin_fill()
+    circle(10, steps = 4)
+    end_fill()
+    space()
+def spec_equal():
+    color("#71412d")
+    rt(45)
+    fillcolor("#71412d")
+    begin_fill()
+    circle(10, steps = 4)
+    end_fill()
+    space()
+def spec_openb():
+    color("#c050a5")
+    rt(45)
+    fillcolor("#c050a5")
+    begin_fill()
+    circle(10, steps = 4)
+    end_fill()
+    space()
+def spec_openc():
+    color("#3cf700")
+    rt(45)
+    fillcolor("#3cf700")
+    begin_fill()
+    circle(10, steps = 4)
+    end_fill()
+    space()
+def spec_closeb():
+    color("#9b1dfa")
+    rt(45)
+    fillcolor("#9b1dfa")
+    begin_fill()
+    circle(10, steps = 4)
+    end_fill()
+    space()
+def spec_closec():
+    color("#d80bce")
+    rt(45)
+    fillcolor("#d80bce")
+    begin_fill()
+    circle(10, steps = 4)
+    end_fill()
+    space()
+def spec_line():
+    color("#a6dcd2")
+    rt(45)
+    fillcolor("#a6dcd2")
+    begin_fill()
+    circle(10, steps = 4)
+    end_fill()
+    space()
+def spec_backslash():
+    color("#f29ea7")
+    rt(45)
+    fillcolor("#f29ea7")
+    begin_fill()
+    circle(10, steps = 4)
+    end_fill()
+    space()
+def spec_colon():
+    color("#5c46dd")
+    rt(45)
+    fillcolor("#5c46dd")
+    begin_fill()
+    circle(10, steps = 4)
+    end_fill()
+    space()
+def spec_semicolon():
+    color("#6f978d")
+    rt(45)
+    fillcolor("#6f978d")
+    begin_fill()
+    circle(10, steps = 4)
+    end_fill()
+    space()
+def spec_quote():
+    color("#c725f6")
+    rt(45)
+    fillcolor("#c725f6")
+    begin_fill()
+    circle(10, steps = 4)
+    end_fill()
+    space()
+def spec_apos():
+    color("#ba9208")
+    rt(45)
+    fillcolor("#ba9208")
+    begin_fill()
+    circle(10, steps = 4)
+    end_fill()
+    space()
+def spec_opencar():
+    color("#1da7e0")
+    rt(45)
+    fillcolor("#1da7e0")
+    begin_fill()
+    circle(10, steps = 4)
+    end_fill()
+    space()
+def spec_comma():
+    color("#e9da83")
+    rt(45)
+    fillcolor("#e9da83")
+    begin_fill()
+    circle(10, steps = 4)
+    end_fill()
+    space()
+def spec_closecar():
+    color("#b6582f")
+    rt(45)
+    fillcolor("#b6582f")
+    begin_fill()
+    circle(10, steps = 4)
+    end_fill()
+    space()
+def spec_period():
+    color("#0a99ab")
+    rt(45)
+    fillcolor("#0a99ab")
+    begin_fill()
+    circle(10, steps = 4)
+    end_fill()
+    space()
+def spec_question():
+    color("#dda6ce")
+    rt(45)
+    fillcolor("#dda6ce")
+    begin_fill()
+    circle(10, steps = 4)
+    end_fill()
+    space()
+def spec_fslash():
+    color("#88e089")
+    rt(45)
+    fillcolor("#88e089")
+    begin_fill()
+    circle(10, steps = 4)
+    end_fill()
+    space()
 
 listen()
 position()
+
+#LETTERS
 for x in range (0, len(stack)):
     if (stack[x] == 97 or stack[x] == 65): 
         letter_a()
@@ -386,6 +644,8 @@ for x in range (0, len(stack)):
         letter_y()
     if (stack[x] == 122 or stack[x] == 90):
         letter_z()
+
+#NUMBERS
     if (stack[x] == 48):
         num_0()
     if (stack[x] == 49):
@@ -406,6 +666,70 @@ for x in range (0, len(stack)):
         num_8()
     if (stack[x] == 57):
         num_9()
+
+#SPECIAL CHARACTERS
+    if (stack[x] == 126):
+        spec_tilda()
+    if (stack[x] == 96):
+        spec_accent()
+    if (stack[x] == 33):
+        spec_exclam()
+    if (stack[x] == 64):
+        spec_at()
+    if (stack[x] == 35):
+        spec_pound()
+    if (stack[x] == 36):
+        spec_dollar()
+    if (stack[x] == 37):
+        spec_percent()
+    if (stack[x] == 94):
+        spec_up()
+    if (stack[x] == 38):
+        spec_amp()
+    if (stack[x] == 42):
+        spec_star()
+    if (stack[x] == 40):
+        spec_openp()
+    if (stack[x] == 41):
+        spec_closep()
+    if (stack[x] == 45):
+        spec_minus()
+    if (stack[x] == 95):
+        spec_underscore()
+    if (stack[x] == 43):
+        spec_plus()
+    if (stack[x] == 61):
+        spec_equal()
+    if (stack[x] == 91):
+        spec_openb()
+    if (stack[x] == 123):
+        spec_openc()
+    if (stack[x] == 93):
+        spec_closeb()
+    if (stack[x] == 125):
+        spec_closec()
     if (stack[x] == 58):
-        num_10()
+        spec_colon()
+    if (stack[x] == 59):
+        spec_semicolon()
+    if (stack[x] == 34):
+        spec_quote()
+    if (stack[x] == 39):
+        spec_apos()
+    if (stack[x] == 60):
+        spec_opencar()
+    if (stack[x] == 44):
+        spec_comma()
+    if (stack[x] == 62):
+        spec_closecar()
+    if (stack[x] == 63):
+        spec_question()
+    if (stack[x] == 46):
+        spec_period()
+    if (stack[x] == 47):
+        spec_fslash()
+    if (stack[x] == 92):
+        spec_backslash()
+    if (stack[x] == 124):
+        spec_line()
    
