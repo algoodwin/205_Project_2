@@ -249,7 +249,87 @@ def letter_z():
     begin_fill()
     circle(10, steps = 4)
     end_fill()
-    space() 
+    space()
+def num_1():
+    color("#5d7865")
+    rt(45)
+    fillcolor("#5d7865")
+    begin_fill()
+    circle(10, steps = 4)
+    end_fill()
+    space()
+def num_2():
+    color("#efda07")
+    rt(45)
+    fillcolor("#efda07")
+    begin_fill()
+    circle(10, steps = 4)
+    end_fill()
+    space()
+def num_3():
+    color("#833337")
+    rt(45)
+    fillcolor("#833337")
+    begin_fill()
+    circle(10, steps = 4)
+    end_fill()
+    space()
+def num_4():
+    color("#a040c6")
+    rt(45)
+    fillcolor("#a040c6")
+    begin_fill()
+    circle(10, steps = 4)
+    end_fill()
+    space()
+def num_5():
+    color("#758b44")
+    rt(45)
+    fillcolor("#758b44")
+    begin_fill()
+    circle(10, steps = 4)
+    end_fill()
+    space()
+def num_6():
+    color("#79593f")
+    rt(45)
+    fillcolor("#79593f")
+    begin_fill()
+    circle(10, steps = 4)
+    end_fill()
+    space()
+def num_7():
+    color("#68b06d")
+    rt(45)
+    fillcolor("#68b06d")
+    begin_fill()
+    circle(10, steps = 4)
+    end_fill()
+    space()
+def num_8():
+    color("#cdf1e3")
+    rt(45)
+    fillcolor("#cdf1e3")
+    begin_fill()
+    circle(10, steps = 4)
+    end_fill()
+    space()
+def num_9():
+    color("#5511ab")
+    rt(45)
+    fillcolor("#5511ab")
+    begin_fill()
+    circle(10, steps = 4)
+    end_fill()
+    space()
+def num_0():
+    color("#f36052")
+    rt(45)
+    fillcolor("#f36052")
+    begin_fill()
+    circle(10, steps = 4)
+    end_fill()
+    space()
 
 listen()
 position()
@@ -306,3 +386,26 @@ for x in range (0, len(stack)):
         letter_y()
     if (stack[x] == 122 or stack[x] == 90):
         letter_z()
+    if (stack[x] == 48):
+        num_0()
+    if (stack[x] == 49):
+        num_1()
+    if (stack[x] == 50):
+        num_2()
+    if (stack[x] == 51):
+        num_3()
+    if (stack[x] == 52):
+        num_4()
+    if (stack[x] == 53):
+        num_5()
+    if (stack[x] == 54):
+        num_6()
+    if (stack[x] == 55):
+        num_7()
+    if (stack[x] == 56):
+        num_8()
+    if (stack[x] == 57):
+        num_9()
+    if (stack[x] == 58):
+        num_10()
+   
