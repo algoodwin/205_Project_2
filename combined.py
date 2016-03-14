@@ -3,20 +3,14 @@ import tkinter as tk
 import ctypes
 from tkinter.simpledialog import askstring
 
-<<<<<<< HEAD
-=======
 root = tk.Tk()
-string = askstring("askstring", "Enter Text")
+name = askstring("askstring", "Enter some Text")
 
-print(string)
+print(name)
 
-
-
->>>>>>> fa6141c33c119f2f01266d6e113131d039807283
 index = 0
 stack = []
-name = string
-#name = input("Enter Text")
+
 while index < len(name):
    letter = name[index]
    num = ord(letter)
