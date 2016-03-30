@@ -3,7 +3,6 @@ import tkinter as tk
 import ctypes
 from tkinter.simpledialog import askstring
 
-
 x = -300
 y = 300
 length = 0
@@ -24,7 +23,7 @@ while index < len(name):
 pensize(10)   
 bgcolor("black")
 speed(100)
-
+setup(width=1.00, height=1.00)
 def space():
     penup()
     lt(45)
@@ -41,7 +40,7 @@ def finish():
     space()
 def newPos():
     penup()
-    goto(x,y-100)
+    right(90)
     pendown()
 def space_button():
     color("black")
@@ -392,11 +391,12 @@ def spec_fslash():
 listen()
 position()
 
+
+ontimer(newPos,2000)
 for x in range (0, len(stack)):
-   count = 0
+   
    if (stack[x] == 97 or stack[x] == 65): 
         letter_a()
-        count += 1
    if (stack[x] == 98 or stack[x] == 66):
         letter_b()
    if (stack[x] == 99 or stack[x] == 67):
