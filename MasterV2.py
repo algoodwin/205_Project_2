@@ -393,8 +393,8 @@ position()
 
 
 ontimer(newPos,2000)
-for x in range (0, len(stack)):
    
+for x in range (0, len(stack)):
    if (stack[x] == 97 or stack[x] == 65): 
         letter_a()
    if (stack[x] == 98 or stack[x] == 66):
