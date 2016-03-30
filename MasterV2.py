@@ -2,9 +2,8 @@ from turtle import*
 import tkinter as tk
 import ctypes
 from tkinter.simpledialog import askstring
+import time
 
-x = -300
-y = 300
 length = 0
 root = tk.Tk()
 name = askstring("askstring", "Enter some Text")
@@ -22,7 +21,7 @@ while index < len(name):
 
 pensize(10)   
 bgcolor("black")
-speed(100)
+speed(200)
 setup(width=1.00, height=1.00)
 def space():
     penup()
@@ -31,7 +30,7 @@ def space():
     pendown()
 def position():
     penup()
-    goto(x,y)
+    goto(-300,300)
     pendown()
 def finish():
     begin_fill()
@@ -40,8 +39,8 @@ def finish():
     space()
 def newPos():
     penup()
-    right(90)
-    pendown()
+    goto(-300, (ycor() - 30))
+    pendown()    
 def space_button():
     color("black")
     rt(45)
@@ -387,13 +386,13 @@ def spec_fslash():
     rt(45)
     fillcolor("#88e089")
     finish()
-
+   
 listen()
 position()
 
+for x in range (1, len(stack)):
+   ontimer(newPos, (3023 * x))
 
-ontimer(newPos,2000)
-   
 for x in range (0, len(stack)):
    if (stack[x] == 97 or stack[x] == 65): 
         letter_a()
@@ -535,3 +534,5 @@ for x in range (0, len(stack)):
         spec_backslash()
    if (stack[x] == 124):
         spec_line()
+ht()
+
