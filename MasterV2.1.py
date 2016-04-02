@@ -22,7 +22,7 @@ while index < len(name):
    index += 1
 
 pensize(10)   
-bgcolor("black")
+bgcolor("black") 
 speed(200)
 setup(width=1.00, height=1.00)
 
